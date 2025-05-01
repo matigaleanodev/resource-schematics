@@ -1,0 +1,12 @@
+{
+  "name": "resource-schematic",
+  "version": "0.0.1",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^16.2.0",
+    "@angular-devkit/schematics": "^16.2.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

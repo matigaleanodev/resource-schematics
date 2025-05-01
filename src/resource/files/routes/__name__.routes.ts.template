@@ -1,0 +1,10 @@
+import { Routes } from '@angular/router';
+import { {{ classify(name) }}Component } from './{{ dasherize(name) }}.component';
+
+export const {{ camelize(name) }}Routes: Routes = [
+  {
+    path: '',
+    component: {{ classify(name) }}Component,
+    children: []
+  }
+];

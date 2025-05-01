@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "ResourceSchema",
+  "title": "Resource Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nombre del recurso"
+    },
+    "path": {
+      "type": "string",
+      "description": "Ruta donde se generará el recurso"
+    }
+  },
+  "required": ["name"]
+}

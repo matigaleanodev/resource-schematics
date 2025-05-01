@@ -1,0 +1,12 @@
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+
+@Injectable({ providedIn: 'root' })
+export class {{ classify(name) }}Service {
+  listar(): Observable<any[]> { throw 'Not implemented'; }
+  buscarUno(id: string): Observable<any> { throw 'Not implemented'; }
+  buscarPor(param: string): Observable<any[]> { throw 'Not implemented'; }
+  crear(data: any): Observable<any> { throw 'Not implemented'; }
+  editar(id: string, data: any): Observable<any> { throw 'Not implemented'; }
+  borrar(id: string): Observable<any> { throw 'Not implemented'; }
+}

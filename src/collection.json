@@ -1,0 +1,9 @@
+{
+  "schematics": {
+    "resource": {
+      "description": "Genera un recurso completo con componentes, servicios y resolvers.",
+      "factory": "./resource/index#resource",
+      "schema": "./resource/schema.json"
+    }
+  }
+}
